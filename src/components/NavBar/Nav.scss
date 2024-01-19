@@ -1,0 +1,78 @@
+.Nav {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  font-size: 17px;
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 10px 20px;
+    background-color: #fcfcfc;
+    border-bottom: 1px solid rgb(199, 198, 198);
+
+    .logo {
+      /* Styles for Logo */
+      .logo img {
+        height: 40px; /* Adjust height as needed */
+        margin-right: 10px;
+      }
+    }
+
+    /* Styles for Navigation Links */
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links li a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    div {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-variant: normal;
+      font-size: 17px;
+
+      span {
+        border: 1px solid #007bff;
+        width: 51px;
+        height: 50px;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #374ed0;
+        color: white;
+      }
+      /* Styles for Help Button */
+      .help-btn {
+        padding: 10px 16px;
+        border: none;
+        border-radius: 4px;
+        background-color: #374ed0;
+        color: #fff;
+        cursor: pointer;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-variant: normal;
+        font-size: 17px;
+      }
+    }
+  }
+}
