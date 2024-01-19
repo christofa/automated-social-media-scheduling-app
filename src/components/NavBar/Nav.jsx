@@ -5,7 +5,7 @@ function Nav() {
     <div className="Nav">
       <nav className="navbar">
         <div className="logo">
-          <img src="logo.png" alt="Logo" />
+          <img src="/Images/wining-logo.jpg" alt="Logo" />
           <p>Media Scheduling App</p>
         </div>
 

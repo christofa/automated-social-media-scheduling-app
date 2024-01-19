@@ -13,7 +13,7 @@ function Preview() {
             <span>
               <input type="radio" />
             </span>
-            Customise post for Facebook and Instagram
+            Customise post for Instagram
           </p>
           <div>
             <p>Text</p>
